@@ -1,0 +1,116 @@
+@font-face {
+    font-family:"fatemeh";
+    src: url(FontsFree-Net-ir_sans.ttf) format('truetype') ;
+    font-weight: normal;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+}
+.logo{
+    display: inline-block;
+}
+#logo{
+    color: black;
+}
+.bottom{
+    border: solid 1px rgb(30, 18, 83);
+    border-radius: 3px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    box-shadow:1px 1px 1px 1px;
+    font-size:medium;
+}
+.main{
+    display: flex;
+    justify-content:space-around;
+}
+/* .content{
+    display: inline-block;
+    border: solid 0.5px rgb(158, 148, 148);
+    border-radius: 5px;
+} */
+.sug , .star{
+    display: inline-block;
+}
+.ss{
+    display: flex;
+    justify-content: space-around;
+}
+.svg {
+    color: rgb(255, 255, 255);
+}
+.svg1 {
+    color: rgb(255, 255, 255);
+}
+.footer{
+    margin-top: 10px;
+    margin-bottom: 1px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(114, 114, 114);
+    color: rgb(255, 255, 255);
+}
+.about{
+    max-width: 50%;
+}
+.folow{
+    margin-left: 110px;
+}
+.link1{
+    margin-left: 35px;
+    color: white;
+}
+#logo:hover{
+    color: rgb(145, 144, 144);
+}
+.call{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    text-decoration: underline rgb(204, 5, 5);
+}
+
+.price{
+    display: flex;
+    justify-content: flex-end;
+}
+.heart{
+    display: inline-block;
+}
+.div , .heart{
+    display: inline-block;
+    background-color: rgba(71, 4, 85, 0.973);
+    width: 34px;
+    height: 34px;
+    border-radius: 34px;
+    margin-right: 13px;
+}
+.div1{
+    display: flex;
+    justify-content: flex-start;
+}
+.man{
+    box-shadow: 2px 2px 2px 1px rgb( 167 , 167 , 167);
+}
+body{
+    font-family:"fatemeh";
+}
+.div:hover::before{
+    content:"خرید";
+    font-size: 10px;
+    color: antiquewhite;
+
+}
+.heart:hover::before{
+    content:"مورد علاقه";
+    font-size: 10px;
+    color: antiquewhite;
+
+}
+.div,.heart{
+    margin-right:20px;
+}
